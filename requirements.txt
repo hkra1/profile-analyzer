@@ -3,5 +3,5 @@ uvicorn
 pydantic
 pdfplumber
 python-docx
-playwright
 httpx
+playwright

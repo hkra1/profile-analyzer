@@ -1,12 +1,11 @@
 # Profile Analyzer
 
-FastAPI service for analyzing resumes, LinkedIn, GitHub profiles.
+FastAPI service for self-profile analysis from resumes and public links.
 
-## Setup
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
+## Features
+- Parse PDF/DOCX resumes
+- Scrape public LinkedIn/GitHub
+- Output structured JSON
 
-## Ethical Use
-Respect privacy, only public data.
+## Run
+`uvicorn main:app --reload`
